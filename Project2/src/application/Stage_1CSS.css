@@ -1,0 +1,478 @@
+ 
+#btnE1:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE1
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE2:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE2
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE3:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE3
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE4:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE4
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE5:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE5
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE7:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE6
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE6:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE7
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE8:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE8
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE9:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE9
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+#btnE10:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+#btnE10
+{
+	-fx-border-color:#000000;
+	-fx-border-width:2.5;
+	-fx-border-radius:2000;
+	-fx-background-radius:2000;
+	-fx-background-color:#FFFF00;
+}
+
+
+
+
+
+/* Here Starts the buttons fronm panes */
+#btnHome1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev1{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnNext1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome1_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose1_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext1_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev1_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 2*/
+#btnHome2{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose2{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev2{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone2{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome2_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose2_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext2_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev2_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 3*/
+#btnHome3{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose3{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev3{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone3{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome3_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose3_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext3_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev3_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 4*/
+#btnHome4{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose4{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev4{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone4{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome4_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose4_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext4_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev4_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 5*/
+#btnHome5{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose5{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev5{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone5{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome5_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose5_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext5_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev5_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 6*/
+#btnHome6{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose6{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev6{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone6{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome6_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose6_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext6_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev6_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 7*/
+#btnHome7{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose7{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev7{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone7{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome7_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose7_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext7_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev7_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 8*/
+#btnHome8{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose8{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev8{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone8{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome8_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose8_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext8_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev8_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 9*/
+#btnHome9{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose9{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev9{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone9{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome9_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose9_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnNext9_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev9_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+/*Experiment 10*/
+#btnHome10{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose10{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnPrev10{
+	-fx-background-color:#55FF1C;	
+	-fx-graphic:  url("/view/Play.png");
+}
+#btnDone10{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+
+#btnHome10_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Home.png");
+}
+#btnClose10_1{
+	-fx-background-color:red;	
+	-fx-graphic:  url("/view/Close.png");
+}
+#btnDone10_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/Next.png");
+}
+#btnPrev10_1{
+	-fx-background-color:#ffff00;	
+	-fx-graphic:  url("/view/prev.png");
+}
+    
+

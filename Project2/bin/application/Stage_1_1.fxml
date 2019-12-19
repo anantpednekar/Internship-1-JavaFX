@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anPaneStage1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1360.0" style="-fx-background-color: #2FA2FF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Exp1_Controller">
+   <children>
+      <ImageView fitHeight="67.0" fitWidth="233.0" layoutX="22.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../view/kidzstronicsNew.png" />
+         </image></ImageView>
+      <VBox layoutY="71.0" prefHeight="650.0" prefWidth="274.0" spacing="7.0" AnchorPane.bottomAnchor="48.0" AnchorPane.topAnchor="71.0">
+         <children>
+            <JFXButton fx:id="btnE1" buttonType="RAISED" layoutX="25.0" layoutY="10.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" text="Exp-I">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE2" buttonType="RAISED" layoutX="25.0" layoutY="72.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-II">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE3" buttonType="RAISED" layoutX="25.0" layoutY="134.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-III">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE4" buttonType="RAISED" layoutX="25.0" layoutY="196.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-IV">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE5" buttonType="RAISED" layoutX="25.0" layoutY="258.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-V">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE6" buttonType="RAISED" layoutX="25.0" layoutY="10.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-VI">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE7" buttonType="RAISED" layoutX="25.0" layoutY="382.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-VII">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE8" buttonType="RAISED" layoutX="25.0" layoutY="444.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-VIII">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE9" buttonType="RAISED" layoutX="25.0" layoutY="506.0" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-IX">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnE10" buttonType="RAISED" onAction="#button_event" prefHeight="55.0" prefWidth="250.0" ripplerFill="#3b577c" text="Exp-X">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font></JFXButton>
+         </children>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </VBox>
+      <StackPane layoutX="272.0" layoutY="-3.0" prefHeight="738.0" prefWidth="1089.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="-3.0">
+         <children>
+            <Pane id="Pane2.1" fx:id="p2_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome2_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose2_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev2_1" onAction="#pane2ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext2_1" layoutX="10.0" layoutY="10.0" onAction="#pane3ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp2_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - II">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane3" fx:id="p3" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt3" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome3" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose3" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev3" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone3" layoutX="10.0" layoutY="10.0" onAction="#pane3_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp3" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="330.0" text="Experiment - III">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt3" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane3.1" fx:id="p3_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome3_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose3_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev3_1" onAction="#pane3ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext3_1" layoutX="10.0" layoutY="10.0" onAction="#pane4ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp3_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="330.0" text="Experiment - III">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane4" fx:id="p4" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt4" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome4" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose4" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev4" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone4" layoutX="10.0" layoutY="10.0" onAction="#pane4_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp4" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - IV">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt4" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane4.1" fx:id="p4_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome4_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose4_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev4_1" onAction="#pane4ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext4_1" layoutX="10.0" layoutY="10.0" onAction="#pane5ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp4_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - IV">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane5" fx:id="p5" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt5" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome5" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose5" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev5" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone5" layoutX="10.0" layoutY="10.0" onAction="#pane5_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp5" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - V">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt5" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane5.1" fx:id="p5_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome5_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose5_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev5_1" onAction="#pane5ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext5_1" layoutX="10.0" layoutY="10.0" onAction="#pane6ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp5_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - V">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane6" fx:id="p6" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt6" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome6" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose6" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev6" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone6" layoutX="10.0" layoutY="10.0" onAction="#pane6_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp6" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - VI">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt6" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane6.1" fx:id="p6_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome6_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose6_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev6_1" onAction="#pane6ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext6_1" layoutX="10.0" layoutY="10.0" onAction="#pane7ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp6_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - VI">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane7" fx:id="p7" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt7" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome7" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose7" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev7" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone7" layoutX="10.0" layoutY="10.0" onAction="#pane7_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp7" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="340.0" text="Experiment - VII">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt7" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane7.1" fx:id="p7_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome7_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose7_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev7_1" onAction="#pane7ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;" />
+                        <JFXButton fx:id="btnNext7_1" layoutX="10.0" layoutY="10.0" onAction="#pane8ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp7_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="340.0" text="Experiment - VII">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane8" fx:id="p8" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt8" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome8" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose8" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev8" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone8" layoutX="10.0" layoutY="10.0" onAction="#pane8_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp8" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="340.0" text="Experiment - VIII">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt8" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane8.1" fx:id="p8_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome8_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose8_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev8_1" onAction="#pane8ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;" />
+                        <JFXButton fx:id="btnNext8_1" layoutX="10.0" layoutY="10.0" onAction="#pane9ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp8_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="340.0" text="Experiment - VIII">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="69.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="570.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane9" fx:id="p9" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt9" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome9" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5; -fx-background-color: #FFFF00;" />
+                        <JFXButton fx:id="btnClose9" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev9" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone9" layoutX="10.0" layoutY="10.0" onAction="#pane9_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp9" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - IX">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt9" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane9.1" fx:id="p9_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome9_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose9_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev9_1" onAction="#pane9ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext9_1" layoutX="10.0" layoutY="10.0" onAction="#pane10ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp9_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - IX">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="69.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="570.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane10" fx:id="p10" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt10" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome10" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose10" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev10" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone10" layoutX="10.0" layoutY="10.0" onAction="#pane10_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp10" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - X">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt10" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane10.1" fx:id="p10_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome10_1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose10_1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev10_1" onAction="#pane10ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone10_1" layoutX="10.0" layoutY="10.0" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp10_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - X">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="69.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="507.0" fitWidth="475.0" layoutX="570.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane id="Pane0" fx:id="p0" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <Label layoutX="86.0" layoutY="252.0" prefHeight="173.0" prefWidth="614.0" text="Select Experiment">
+                     <font>
+                        <Font name="Comic Sans MS Bold Italic" size="68.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane id="Pane1" fx:id="p1" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt1" prefHeight="95.0" prefWidth="229.0" text="Components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fx:id="e1_source1" fitHeight="100.0" fitWidth="100.0" onDragDetected="#e1_handleondrag1" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/battery.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="e1_source2" fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" onDragDetected="#e1_handleondrag2" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/green_led.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="e1_source3" fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" onDragDetected="#e1_handleondrag3" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../view/red%20led.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="e1_cmpnt_res" fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome1" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose1" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev1" onAction="#e1_done" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext1" layoutX="10.0" layoutY="10.0" onAction="#pane1_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - I">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt1" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="Circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="e1_target" fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/circuit.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="e1_target2" fitHeight="100.0" fitWidth="100.0" layoutX="365.0" layoutY="208.5" onDragDropped="#e1_handledrop" onDragOver="#e1_handledregover" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/greenilluminator.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="e1_target3" fitHeight="100.0" fitWidth="100.0" layoutX="618.0" layoutY="208.5" onDragDropped="#e1_handledrop" onDragOver="#e1_handledregover" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/redilluminator.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="e1_target1" fitHeight="100.0" fitWidth="100.0" layoutX="202.0" layoutY="361.0" onDragDropped="#e1_handledrop" onDragOver="#e1_handledregover" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/power.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane id="Pane1.1" fx:id="p1_1" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="64.0" prefWidth="166.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome1_1" alignment="CENTER" layoutX="90.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="62.0" style="-fx-background-radius: 200; -fx-border-color: #000000; -fx-border-radius: 200; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose1_1" alignment="CENTER" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="62.0" style="-fx-background-radius: 200; -fx-border-color: #000000; -fx-border-radius: 200; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev1_1" onAction="#pane1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnNext1_1" layoutX="10.0" layoutY="10.0" onAction="#pane2ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp1_1" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - I">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="70.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/e1ckt.png" />
+                     </image></ImageView>
+                  <ImageView fitHeight="520.0" fitWidth="520.0" layoutX="500.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../view/e1bb.png" />
+                     </image></ImageView>
+               </children>
+            </Pane>
+            <Pane id="Pane2" fx:id="p2" layoutX="10.0" layoutY="10.0" prefHeight="776.0" prefWidth="1089.0" style="-fx-background-color: #2FA2FF;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" layoutX="33.0" layoutY="65.0" prefHeight="125.0" prefWidth="927.0" spacing="15.0">
+                     <children>
+                        <Label fx:id="lblcmpnt2" prefHeight="95.0" prefWidth="229.0" text="components">
+                           <font>
+                              <Font name="Comic Sans MS Bold" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="254.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="369.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="599.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="714.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                     <effect>
+                        <InnerShadow choke="0.7" height="65.48" radius="25.567500000000003" width="38.79" />
+                     </effect>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="14.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnHome2" onAction="#byeSecondary" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnClose2" layoutX="10.0" layoutY="10.0" onAction="#bye" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="920.0" layoutY="629.0" prefHeight="63.0" prefWidth="149.0" spacing="20.0">
+                     <children>
+                        <JFXButton fx:id="btnPrev2" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;" />
+                        <JFXButton fx:id="btnDone2" layoutX="10.0" layoutY="10.0" onAction="#pane2_1ToFront" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-border-width: 2.5;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <padding>
+                        <Insets top="7.0" />
+                     </padding>
+                  </HBox>
+                  <Label fx:id="lblExp2" alignment="CENTER" contentDisplay="CENTER" layoutX="319.0" layoutY="-5.0" prefHeight="71.0" prefWidth="306.0" text="Experiment - II">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblckt2" layoutX="30.0" layoutY="163.0" prefHeight="52.0" prefWidth="172.0" text="circuit">
+                     <font>
+                        <Font name="Comic Sans MS Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="414.0" fitWidth="792.0" layoutX="184.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

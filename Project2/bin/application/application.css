@@ -1,0 +1,54 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btn1
+{
+     -fx-background-radius: 5em; 
+     -fx-background-color: linear-gradient(#E3FD04, #ff5400); 
+     -fx-text-fill: black;
+     -fx-min-width: 100px; 
+     -fx-min-height: 100px; 
+     -fx-max-width: 100px; 
+     -fx-max-height: 100px;
+     -fx-border-color:#000000;
+     -fx-border-radius:200;
+}
+
+#btn2
+{
+     -fx-background-radius: 5em; 
+     -fx-background-color: linear-gradient(#E3FD04, #ff5400); 
+     -fx-text-fill: #000000;
+     -fx-min-width: 100px; 
+     -fx-min-height: 100px; 
+     -fx-max-width: 100px; 
+     -fx-max-height: 100px;
+      -fx-border-color:#000000;
+     -fx-border-radius:200;
+}
+.button{
+	-fx-border-color:#000000;
+}
+#btn1:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+	
+}
+
+.button:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+}
+
+#btn2:hover
+{
+	-fx-background-color:#295598;
+	-fx-text-fill: white;
+	
+}
+#anPane{
+	-fx-background-image: url("/view/MainBack.jpg");
+	 -fx-background-size: cover;
+}
+
+
