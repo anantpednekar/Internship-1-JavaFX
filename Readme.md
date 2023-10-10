@@ -1,7 +1,9 @@
-##Kidzatronix
+## Kidzatronix
+
 A simple JavaFXML desktop application for learning basic electronic circuits for childrens.
 
-##Developers 
+## Developers 
+
 Anant Pednekar
 Somesh Narvekar
 Jocia Mendes
